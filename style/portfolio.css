@@ -319,3 +319,7 @@ hr {
 .footer-input button {
     width: 150px;
 }
+
+.hide {
+    display: none !important;
+}

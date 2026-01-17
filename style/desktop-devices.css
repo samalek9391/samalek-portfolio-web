@@ -1,0 +1,48 @@
+@media  screen and (min-width: 993px) and (max-width:1200px) {
+ /*Header Section  */
+#banner {
+  display: flex;
+  margin: 47px 20px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about-section {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  background-color: #FFF8F3;
+  padding: 131px 20px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  border-radius: 10px;
+}
+
+/* Skills Section */
+
+#skills, #resume {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 130px;
+}
+/*Footer Section*/
+.footer {
+  display: flex;
+  background-color: #FFF8F3;
+  margin: 0 20px;
+  padding: 130px 20px;
+  justify-content: space-between;
+}
+}

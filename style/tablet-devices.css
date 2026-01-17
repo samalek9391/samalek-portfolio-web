@@ -1,0 +1,100 @@
+@media screen and (min-width: 577px) and (max-width: 768px) {
+     /* Navigation bar */
+
+     nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+/* Banner Section */
+#banner {
+  display: flex;
+  flex-direction:column;
+  margin: 0;
+}
+.banner-image img {
+    width: 100%;
+}
+#banner .banner-content h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#banner .banner-content h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+#banner .banner-content p {
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+.btn {
+  background-color: #FD6E0A;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+#banner .banner-content {
+    justify-content: center;
+    text-align: center;
+}
+
+/* about-section */
+about-section {
+  width: 71%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.section-heading {
+  background-color: #FFF8F3;
+  padding: 20px 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Skills Section */
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Resume Section */
+.resume-container {
+  display: flex;
+  flex-direction: column;
+}
+.resume-heading {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+    
+    /* Footer Section */
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer-content {
+    margin-bottom: 30px;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+}
+}
